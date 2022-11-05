@@ -1,24 +1,40 @@
 ---
-import '../images/4-no-background.png'
+import "../images/4-no-background.png"
 ---
+
 <nav id="main-nav">
     <div class="nav-container">
         <div class="logo-container">
-            <img
+            <!-- <img
                 class="logo-triangle"
-                src="../images/4-no-background.png"
                 alt="The Chain Link Logo"
-            />
+            /> -->
+            <div class="logo-triangle"></div>
         </div>
         <div>
             <h1 class="nav-heading">BLOCKCHAIN DECRYPTED</h1>
         </div>
     </div>
     <ul>
-        <li><a href="/" class="current">Home</a></li>
-        <li><a href="/articles" class="inactive">Articles</a></li>
-        <li><a href="/about" class="inactive">About</a></li>
-      </ul>
+        <li
+            ><a
+                href="/"
+                class="current">Home</a
+            >
+        </li>
+        <li
+            ><a
+                href="/articles"
+                class="inactive">Articles</a
+            >
+        </li>
+        <li
+            ><a
+                href="/about"
+                class="inactive">About</a
+            >
+        </li>
+    </ul>
 </nav>
 
 <style>
@@ -42,9 +58,12 @@ import '../images/4-no-background.png'
         overflow: hidden;
     }
 
-
     .logo-triangle {
+        position: relative;
         width: 100px;
+        background-image: url("../images/fly-d-lock-2-unsplash.png");
+        background-position: 0 0;
+        background-size: cover;
     }
 
     .nav-heading {
