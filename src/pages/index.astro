@@ -23,7 +23,7 @@ if (!posts) {
 
             {
                 posts.map((post) => (
-                    <Articles title={post.title} category={post.category} text={post.text} image={`../images/${post.image}`} />
+                    <Articles title={post.title} category={post.category} text={post.text} image={`../images/${post.image}`} slug={post.slug} />
                 ))
             }
             </div>
