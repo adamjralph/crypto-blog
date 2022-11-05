@@ -1,0 +1,155 @@
+@media (max-width: 600px) {
+    #main-nav .logo-triangle {
+        display: none;
+    }
+    .showcase-content p {
+        display: none;
+    }
+    .showcase-content .btn {
+        display: none;
+    }
+    #about .l-heading {
+        text-align: left;
+        padding: auto;
+        margin-left: 0;
+    }
+}
+/* Navigation */
+#main-nav .nav-container {
+    margin-bottom: 1rem;
+}
+
+#main-nav .logo-container {
+    margin: auto;
+}
+
+#main-nav .nav-heading {
+    text-align: center;
+}
+#main-nav .social {
+    display: none;
+}
+
+#main-nav .nav-container {
+    grid-template-columns: 1fr;
+    gap: 1.2rem;
+}
+
+#main-nav ul {
+    justify-self: center;
+    margin-bottom: 1rem;
+}
+
+#main-nav ul li a {
+    padding: 0.7rem;
+}
+
+.showcase-container {
+    display: grid;
+    grid-template-columns: 1fr;
+    height: 50vh;
+}
+
+.home-articles .articles-container {
+    grid-template-columns: 1fr;
+}
+
+#home-articles .articles-container > *:first-child,
+#home-articles .articles-container > *:last-child {
+    grid-template-columns: 1fr;
+    align-items: center;
+    grid-column: 1;
+    gap: 1rem;
+}
+
+/* Read */
+.article-container {
+    display: flex;
+    flex-direction: column;
+}
+.read .article-container .article-light,
+.article-container .article-dark {
+    width: auto;
+}
+
+.article-container > *:last-child {
+    display: none;
+}
+
+/* About */
+.page-container {
+    display: grid;
+    grid-template-columns: 1fr;
+    margin: 2rem 0;
+    grid-gap: 1.5rem;
+}
+
+.page-container > *:first-child {
+    grid-row: 1 / span 3;
+}
+
+.page-container .l-heading {
+    margin-left: 1rem;
+}
+
+/* Footer */
+
+.main-footer .footer-logo {
+    display: none;
+}
+
+.main-footer .footer-container > *:last-child {
+    grid-column: 1;
+}
+
+.main-footer .footer-container {
+    grid-template-columns: 1fr;
+    gap: 2rem;
+}
+
+.main-footer .footer-container input[type="email"] {
+    text-align: left;
+    width: auto;
+    padding: 0.5rem;
+    margin-bottom: 0.5rem;
+    background-color: lightgray;
+}
+
+.main-footer .footer-container input[type="submit"] {
+    width: auto;
+    display: block;
+    margin: 1rem 0;
+}
+
+.main-footer .email-newsletter {
+    text-align: left;
+}
+
+.main-footer .site-links .card:hover,
+.card:focus {
+    transition: opacity 0.6s ease;
+    opacity: 1;
+}
+.main-footer .site-links {
+    width: auto;
+    text-align: left;
+}
+
+.main-footer .site-links ul li {
+    text-align: left;
+}
+
+.main-footer .site-links a:hover,
+.main-footer .site-links a:focus {
+    transition: color 0.4s ease;
+    color: var(--mandarin);
+    border-color: var(--mandarin);
+}
+
+.main-footer .join-now {
+    text-align: left;
+}
+
+.copyright {
+    text-align: left;
+}

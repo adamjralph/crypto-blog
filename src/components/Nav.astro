@@ -1,9 +1,12 @@
+---
+import '../images/4-no-background.png'
+---
 <nav id="main-nav">
     <div class="nav-container">
         <div class="logo-container">
             <img
                 class="logo-triangle"
-                src="../../images/4-no-background.png"
+                src="../images/4-no-background.png"
                 alt="The Chain Link Logo"
             />
         </div>
@@ -11,4 +14,62 @@
             <h1 class="nav-heading">BLOCKCHAIN DECRYPTED</h1>
         </div>
     </div>
+    <ul>
+        <li><a href="/" class="current">Home</a></li>
+        <li><a href="/articles" class="inactive">Articles</a></li>
+        <li><a href="/about" class="inactive">About</a></li>
+      </ul>
 </nav>
+
+<style>
+    /* Nav */
+    nav {
+        position: sticky;
+        top: 0;
+        z-index: 2;
+        transition: top 0.4s ease;
+        background-color: var(--eerie-black);
+    }
+
+    nav .nav-container {
+        display: grid;
+        grid-template-columns: 3fr 4fr 3fr;
+        padding: 1rem;
+        align-items: center;
+        max-width: var(--max-width);
+        margin: auto;
+        padding: 0 2rem;
+        overflow: hidden;
+    }
+
+
+    .logo-triangle {
+        width: 100px;
+    }
+
+    .nav-heading {
+        letter-spacing: 0.2rem;
+        text-align: center;
+    }
+
+    nav ul {
+        justify-self: end;
+        display: flex;
+    }
+
+    nav ul li a {
+        padding: 0.75rem;
+        font-weight: bold;
+    }
+
+    nav ul li a.current {
+        background-color: var(--eerie-black);
+        border: 2px solid var(--gold-crayola);
+        border-radius: 2px;
+    }
+
+    nav ul li a:hover {
+        transition: color 0.8s ease;
+        color: var(--mandarin);
+    }
+</style>
