@@ -3,7 +3,7 @@ import BaseLayout from "../layouts/BaseLayout.astro"
 import Showcase from "../components/Showcase.astro"
 import Articles from "../components/Articles.astro"
 
-import { getAllPosts } from "../lib/posts"
+import { getAllPosts, getImageLink } from "../lib/posts"
 
 const posts = await getAllPosts()
 if (!posts) {
@@ -12,22 +12,41 @@ if (!posts) {
         statusText: "Not found",
     })
 }
+
+const image = await getImageLink()
+if (!image) {
+    return new Response(null, {
+        status: 404,
+        statusText: "Not found",
+    })
+}
+
+{
+    image.map((imagePath) => console.log(imagePath))
+}
 ---
 
 <BaseLayout>
     <Showcase />
-    <section id="home-articles" class="home-articles py-2">
+    <section
+        id="home-articles"
+        class="home-articles py-2"
+    >
         <div class="articles-background-container">
             <h2>Editor Picks</h2>
             <div class="articles-container">
-
-            {
-                posts.map((post) => (
-                    <Articles title={post.title} category={post.category} text={post.text} image={`../images/${post.image}`} slug={post.slug} />
-                ))
-            }
+                {
+                    posts.map((post) => (
+                        <Articles
+                            title={post.title}
+                            category={post.category}
+                            text={post.text}
+                            image={`../images/${post.image}`}
+                            slug={post.slug}
+                        />
+                    ))
+                }
             </div>
         </div>
     </section>
-    
 </BaseLayout>
