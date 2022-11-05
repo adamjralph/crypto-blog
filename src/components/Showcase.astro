@@ -1,0 +1,64 @@
+<header class="showcase">
+    <div class="container">
+        <div class="showcase-container">
+            <div class="showcase-content">
+                <a
+                    href="#"
+                    class="category category-bitcoin">Bitcoin</a
+                >
+                <h1
+                    ><a href="/read"
+                        >Dfinity announce Bitcoin integration with IC network</a
+                    >
+                </h1>
+                <p
+                    >Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                    Quisquam doloribus et libero quae modi possimus accusamus
+                    illo? Ducimus, sapiente possimus!</p
+                >
+                <a
+                    href="articles"
+                    class="btn btn-primary">2 min read</a
+                >
+            </div>
+        </div>
+    </div>
+</header>
+
+<style>
+    .showcase-container {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+    }
+
+    .showcase {
+        color: var(--light-color);
+        background: var(--eerie-black);
+        padding: 2rem;
+        position: relative;
+    }
+
+    .showcase::before {
+        content: "";
+        background: url(../images/shubham-dhage-article-1-unsplash.jpg)
+            no-repeat center center/cover;
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        opacity: 0.4;
+    }
+
+    .showcase .showcase-content {
+        z-index: 1;
+    }
+
+    .showcase .showcase-content h1,
+    p {
+        margin-bottom: 1rem;
+    }
+</style>

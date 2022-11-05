@@ -1,6 +1,9 @@
 ---
-import BaseLayout from "../layouts/BaseLayout.astro";
-import { getAllPosts } from "../lib/posts";
+import BaseLayout from "../layouts/BaseLayout.astro"
+import Showcase from "../components/Showcase.astro"
+import Articles from "../components/Articles.astro"
+
+import { getAllPosts } from "../lib/posts"
 
 const posts = await getAllPosts()
 if (!posts) {
@@ -12,14 +15,19 @@ if (!posts) {
 ---
 
 <BaseLayout>
-    <h1>Blocklink</h1>
-    <ul>
-        {
-            posts.map((post) => (
-                <li>
-                    {post.title}, {post.text}
-                </li>
-            ))
-        }
-    </ul>
+    <Showcase />
+    <section id="home-articles" class="home-articles py-2">
+        <div class="articles-background-container">
+            <h2>Editor Picks</h2>
+            <div class="articles-container">
+
+            {
+                posts.map((post) => (
+                    <Articles title={post.title} category={post.category} text={post.text} image={`../images/${post.image}`} />
+                ))
+            }
+            </div>
+        </div>
+    </section>
+    
 </BaseLayout>

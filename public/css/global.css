@@ -225,51 +225,13 @@ h6 {
     border: none;
 }
 
-
-
-.showcase-container {
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    justify-content: center;
-    align-items: center;
-    height: 100vh;
-}
-
-.showcase {
-    color: var(--light-color);
-    background: var(--eerie-black);
-    padding: 2rem;
-    position: relative;
-}
-
-.showcase::before {
-    content: "";
-    background: url(../images/shubham-dhage-article-1-unsplash.jpg) no-repeat
-        center center/cover;
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    opacity: 0.4;
-}
-
-.showcase .showcase-content {
-    z-index: 1;
-}
-
-.showcase .showcase-content h1,
-p {
-    margin-bottom: 1rem;
-}
-
 /* Home Articles */
 #home-articles {
     display: flex;
     align-items: center;
     justify-content: center;
     background-color: var(--eerie-black);
-    background-image: url(../images/shubham-dhage-background-5-unsplash.jpg);
+    background-image: url(../../src/images/shubham-dhage-background-5-unsplash.jpg);
     background-blend-mode: soft-light;
 }
 
