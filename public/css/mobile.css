@@ -97,7 +97,11 @@
 }
 
 .article-content p {
-    font-size: 1.2/rem;
+    font-size: 1.4rem;
+}
+
+.article-content .category {
+    z-index: 1;
 }
 
 /* About */
