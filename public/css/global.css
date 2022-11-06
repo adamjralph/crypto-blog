@@ -263,9 +263,9 @@ h6 {
     grid-column: 1 / span 2;
 } */
 
-.home-articles .articles-container > *:last-child {
+/* .home-articles .articles-container > *:last-child {
     grid-column: 2 / span 2;
-}
+} */
 
 .article-card {
     position: relative;

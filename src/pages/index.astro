@@ -2,6 +2,8 @@
 import BaseLayout from "../layouts/BaseLayout.astro"
 import Showcase from "../components/Showcase.astro"
 import Articles from "../components/Articles.astro"
+import Nav from "../components/Nav.astro"
+import logo from "../images/logo.svg"
 
 import { getAllPosts, getImageLink } from "../lib/posts"
 
@@ -16,21 +18,9 @@ if (!posts) {
 function limitTextContent(text) {
     return text.substring(text, 500)
 }
-
-// const image = await getImageLink()
-// if (!image) {
-//     return new Response(null, {
-//         status: 404,
-//         statusText: "Not found",
-//     })
-// }
-
-// {
-//     image.map((imagePath) => console.log(imagePath))
-// }
 ---
 
-<BaseLayout>
+<BaseLayout homeCurrent="current">
     <Showcase />
     <section
         id="home-articles"

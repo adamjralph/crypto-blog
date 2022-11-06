@@ -17,6 +17,7 @@
 /* Navigation */
 #main-nav .nav-container {
     margin-bottom: 1rem;
+    padding-inline: 0;
 }
 
 #main-nav .logo-container {
@@ -42,6 +43,9 @@
 
 #main-nav ul li a {
     padding: 0.7rem;
+}
+#main-nav ul * ~ * {
+    margin-left: 0.6rem;
 }
 
 .showcase-container {
