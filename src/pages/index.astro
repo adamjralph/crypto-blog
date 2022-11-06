@@ -13,17 +13,17 @@ if (!posts) {
     })
 }
 
-const image = await getImageLink()
-if (!image) {
-    return new Response(null, {
-        status: 404,
-        statusText: "Not found",
-    })
-}
+// const image = await getImageLink()
+// if (!image) {
+//     return new Response(null, {
+//         status: 404,
+//         statusText: "Not found",
+//     })
+// }
 
-{
-    image.map((imagePath) => console.log(imagePath))
-}
+// {
+//     image.map((imagePath) => console.log(imagePath))
+// }
 ---
 
 <BaseLayout>
@@ -41,7 +41,7 @@ if (!image) {
                             title={post.title}
                             category={post.category}
                             text={post.text}
-                            image={`../images/${post.image}`}
+                            image={`../src/images/${post.image}`}
                             slug={post.slug}
                         />
                     ))

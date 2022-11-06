@@ -3,21 +3,31 @@ const { title, category, text, image, slug } = Astro.props
 ---
 
 {
-  <article class="article-card card bg-primary">
-    <img 
-      class="article-image"
-      src={image} alt="Blockchain image" />
+    (
+        <article class="article-card card bg-primary">
+            <img
+                class="article-image"
+                src={image}
+                alt="Blockchain image"
+            />
 
-    <div>
-      <h3>
-        <a href={slug}>
-          <span class="link-span"></span>{title}   
-        </a>   
-      </h3>
-      <a href="#" class="category bg-light-category">{category}</a>
-      <p>{text}</p>
-    </div>
-    </article>
+            <div>
+                <h3>
+                    <a href={slug}>
+                        <span class="link-span" />
+                        {title}
+                    </a>
+                </h3>
+                <a
+                    href="#"
+                    class="category bg-light-category"
+                >
+                    {category}
+                </a>
+                <p>{text}</p>
+            </div>
+        </article>
+    )
 }
 
 <style>
