@@ -5,9 +5,10 @@ export const getAllPosts = async () => {
     return posts
 }
 
-export const getPostBySlug = async () => {
-    const article = await (await Posts()).findOne()
-    return article
+export const getPostBySlug = async (query) => {
+    // const query = { slug: url }
+    const post = await (await Posts()).findOne(query)
+    return post
 }
 
 export const getImageLink = async () => {
