@@ -1,15 +1,14 @@
 ---
-import { getPostBySlug } from "../lib/posts"
-import BaseLayout from "../layouts/BaseLayout.astro"
+import { getPostBySlug } from "../../lib/posts"
+import BaseLayout from "../../layouts/BaseLayout.astro"
 
 const path = Astro.url.pathname
-const url = "the-new-dao-on-the-block"
+// const url = "the-new-dao-on-the-block"
 // console.log(path)
-// const url = path.replace("/", "")
+const url = path.replace("/read/", "")
 const slug = { slug: url }
-console.dir(slug)
 
-const post = getPostBySlug(slug)
+const post = await getPostBySlug(slug)
 if (!post) {
     return new Response(null, {
         status: 404,

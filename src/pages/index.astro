@@ -34,7 +34,7 @@ function limitTextContent(text) {
                             category={post.category}
                             summary={limitTextContent(post.summary)}
                             image={`/images/${post.image}`}
-                            slug={post.slug}
+                            slug={`/read/${post.slug}`}
                         />
                     ))
                 }
