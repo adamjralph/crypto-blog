@@ -13,6 +13,10 @@ if (!posts) {
     })
 }
 
+function limitTextContent(text) {
+    return text.substring(text, 500)
+}
+
 // const image = await getImageLink()
 // if (!image) {
 //     return new Response(null, {
@@ -40,7 +44,7 @@ if (!posts) {
                         <Articles
                             title={post.title}
                             category={post.category}
-                            text={post.text}
+                            text={limitTextContent(post.text)}
                             image={`/images/${post.image}`}
                             slug={post.slug}
                         />
