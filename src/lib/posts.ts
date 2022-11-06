@@ -6,7 +6,6 @@ export const getAllPosts = async () => {
 }
 
 export const getPostBySlug = async (query) => {
-    // const query = { slug: url }
     const post = await (await Posts()).findOne(query)
     return post
 }

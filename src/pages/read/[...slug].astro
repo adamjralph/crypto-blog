@@ -3,8 +3,6 @@ import { getPostBySlug } from "../../lib/posts"
 import BaseLayout from "../../layouts/BaseLayout.astro"
 
 const path = Astro.url.pathname
-// const url = "the-new-dao-on-the-block"
-// console.log(path)
 const url = path.replace("/read/", "")
 const slug = { slug: url }
 
@@ -25,7 +23,6 @@ if (!post) {
         <div class="container">
             <div class="article-container">
                 <article class="article-light">
-                    <h4>{url}</h4>
                     <img
                         src="../images/<%= article.image %> "
                         alt=""

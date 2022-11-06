@@ -11,7 +11,7 @@ const { homeCurrent, articlesCurrent, aboutCurrent } = Astro.props
 
 <!DOCTYPE html>
 <html lang="en">
-    <!-- <Head favicon={`../../${favicon}`} /> -->
+    <Head favicon={`../../${favicon}`} />
     <Head icon={favicon} />
     <body>
         <Nav
@@ -21,6 +21,6 @@ const { homeCurrent, articlesCurrent, aboutCurrent } = Astro.props
             aboutCurrent={aboutCurrent}
         />
         <slot />
-        <Footer />
+        <Footer logo={logo} />
     </body>
 </html>

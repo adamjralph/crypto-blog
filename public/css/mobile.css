@@ -75,12 +75,11 @@
     padding-inline: 0;
 }
 .articles-background-container h2 {
-    padding-left: 2.3 / rem;
+    padding-left: 2.3;
 }
 .article-container {
     display: flex;
     flex-direction: column;
-    padding: 8rem;
 }
 
 .read .article-container .article-light,
