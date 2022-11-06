@@ -5,6 +5,11 @@ export const getAllPosts = async () => {
     return posts
 }
 
+export const getPostBySlug = async () => {
+    const article = await (await Posts()).findOne()
+    return article
+}
+
 export const getImageLink = async () => {
     const image = await (await Posts()).distinct("image")
     return image

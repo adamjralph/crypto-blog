@@ -32,9 +32,9 @@ function limitTextContent(text) {
                         <Articles
                             title={post.title}
                             category={post.category}
-                            text={limitTextContent(post.text)}
+                            summary={limitTextContent(post.summary)}
                             image={`/images/${post.image}`}
-                            slug={post.slug}
+                            slug={`/read/${post.slug}`}
                         />
                     ))
                 }

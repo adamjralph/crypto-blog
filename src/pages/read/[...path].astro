@@ -1,0 +1,55 @@
+---
+import BaseLayout from "../../layouts/BaseLayout.astro"
+import { getPostBySlug } from "../../lib/posts"
+
+const { slug } = Astro.props
+const { url } = Astro.request
+const post = await getPostBySlug(url)
+if (!post) {
+    return new Response(null, {
+        status: 404,
+        statusText: "Not found",
+    })
+}
+---
+
+<BaseLayout>
+    <section id="read" class="read">
+        <div class="container">
+      
+          <div class="article-container">
+              <article class="article-light">
+                  <img src="../images/<%= article.image %> " alt="" />
+                    <!-- <h1 class="article-heading">Dfinity annouces Bitcoin on the Internet Computer</h1> -->
+                    <div class="article-content">
+                      <h1 class="article-heading">{post.title}</h1>
+                      <div class="article-meta">
+                        <a href="#" class="article-author">{post.author}</a>
+                        <a href="#" class="category bg-light-category">{post.category}</a>
+                      </div>
+                      <p class="article-text">
+                        {post.text}
+                      </p>
+      
+                    </div>
+                    <!-- <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias accusamus architecto iste omnis corrupti dignissimos illum minus molestiae amet provident soluta suscipit, itaque, porro perspiciatis minima aliquid aliquam voluptatem doloribus modi! Illum necessitatibus magnam distinctio exercitationem quisquam aliquam laborum possimus deleniti velit praesentium, eius ratione dignissimos molestiae natus impedit et?</p> -->
+                    <!-- <br>
+                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Debitis, velit? Recusandae earum iure tempore nihil neque! Mollitia tempora aspernatur assumenda eaque error, consectetur eligendi quae ducimus a nesciunt vitae facere temporibus doloremque, ratione nostrum incidunt corrupti officia itaque saepe hic sunt corporis. Molestias minus molestiae odit neque ab delectus quam fugiat nihil debitis veritatis, est ea, possimus facere repudiandae excepturi.</p>
+                    <br>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias accusamus architecto iste omnis corrupti dignissimos illum minus molestiae amet provident soluta suscipit, itaque, porro perspiciatis minima aliquid aliquam voluptatem doloribus modi! Illum necessitatibus magnam distinctio exercitationem quisquam aliquam laborum possimus deleniti velit praesentium, eius ratione dignissimos molestiae natus impedit et?</p> -->
+                  </article>
+              <aside class="card-aside">
+                <h2>Become a Contributor</h2>
+                <p>Join an ever-expanding community of talented content creators.</p>
+                <p>Help promote and fund your work through your own public profile page linked directly from your published articles.</p>
+                <a href="#" class="btn btn-dark btn-block">Join Now</a>
+              </aside>
+              <!-- <aside class="card-aside">
+                <H2>Join The Chain</H2>
+                <p>Sign Up for a Seven Day Free trail and recieve full access to out premium content</p>
+                <a href="#" class="btn btn-dark btn-block">Join Now</a>
+              </aside> -->
+          </div>
+        </div>
+      </section>
+</BaseLayout>

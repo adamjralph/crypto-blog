@@ -1,6 +1,6 @@
 import * as adapter from '@astrojs/netlify/netlify-functions.js';
 import { escape } from 'html-escaper';
-/* empty css                        */import { MongoClient } from 'mongodb';
+/* empty css                                                      *//* empty css                        */import { MongoClient } from 'mongodb';
 import 'mime';
 import 'kleur/colors';
 import 'string-width';
@@ -1317,72 +1317,72 @@ var __freeze = Object.freeze;
 var __defProp = Object.defineProperty;
 var __template = (cooked, raw) => __freeze(__defProp(cooked, "raw", { value: __freeze(raw || cooked.slice()) }));
 var _a;
-const $$metadata$6 = createMetadata("/@fs/home/evensite/projects/crypto-blog/src/components/Head.astro", { modules: [], hydratedComponents: [], clientOnlyComponents: [], hydrationDirectives: /* @__PURE__ */ new Set([]), hoisted: [] });
-const $$Astro$6 = createAstro("/@fs/home/evensite/projects/crypto-blog/src/components/Head.astro", "", "file:///home/evensite/projects/crypto-blog/");
+const $$metadata$9 = createMetadata("/@fs/home/evensite/projects/crypto-blog/src/components/Head.astro", { modules: [], hydratedComponents: [], clientOnlyComponents: [], hydrationDirectives: /* @__PURE__ */ new Set([]), hoisted: [] });
+const $$Astro$9 = createAstro("/@fs/home/evensite/projects/crypto-blog/src/components/Head.astro", "", "file:///home/evensite/projects/crypto-blog/");
 const $$Head = createComponent(async ($$result, $$props, $$slots) => {
-  const Astro2 = $$result.createAstro($$Astro$6, $$props, $$slots);
+  const Astro2 = $$result.createAstro($$Astro$9, $$props, $$slots);
   Astro2.self = $$Head;
   const { favicon } = Astro2.props;
   return renderTemplate(_a || (_a = __template(['<head>\n    <meta charset="UTF-8">\n    <meta http-equiv="X-UA-Compatible" content="IE=edge">\n    <meta name="viewport" content="width=device-width, initial-scale=1.0">\n    <meta content="X-Content-Type-Options: nosniff">\n    <title>The Block Link | On-Chain News</title>\n\n    <!-- Roboto -->\n    <link rel="preconnect" href="https://fonts.googleapis.com">\n    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>\n    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">\n\n    <!-- Montserrat -->\n    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500&family=Roboto&display=swap" rel="stylesheet">\n\n    <link rel="stylesheet" href="/css/global.css">\n    <link rel="stylesheet" media="screen and (max-width: 810px)" href="/css/mobile.css">\n    <script src="https://kit.fontawesome.com/6543bd4db3.js" crossorigin="anonymous"><\/script>\n    <link rel="shortcut icon" type="image/x-icon"', '>\n    <script defer src="/js/index.js"><\/script>\n', "</head>\n"])), addAttribute(favicon, "href"), renderHead($$result));
 });
 
-const $$file$6 = "/home/evensite/projects/crypto-blog/src/components/Head.astro";
-const $$url$6 = undefined;
+const $$file$9 = "/home/evensite/projects/crypto-blog/src/components/Head.astro";
+const $$url$9 = undefined;
 
 const $$module1$1 = /*#__PURE__*/Object.freeze(/*#__PURE__*/Object.defineProperty({
   __proto__: null,
-  $$metadata: $$metadata$6,
+  $$metadata: $$metadata$9,
   default: $$Head,
-  file: $$file$6,
-  url: $$url$6
+  file: $$file$9,
+  url: $$url$9
 }, Symbol.toStringTag, { value: 'Module' }));
 
-const $$metadata$5 = createMetadata("/@fs/home/evensite/projects/crypto-blog/src/components/Nav.astro", { modules: [], hydratedComponents: [], clientOnlyComponents: [], hydrationDirectives: /* @__PURE__ */ new Set([]), hoisted: [] });
-const $$Astro$5 = createAstro("/@fs/home/evensite/projects/crypto-blog/src/components/Nav.astro", "", "file:///home/evensite/projects/crypto-blog/");
+const $$metadata$8 = createMetadata("/@fs/home/evensite/projects/crypto-blog/src/components/Nav.astro", { modules: [], hydratedComponents: [], clientOnlyComponents: [], hydrationDirectives: /* @__PURE__ */ new Set([]), hoisted: [] });
+const $$Astro$8 = createAstro("/@fs/home/evensite/projects/crypto-blog/src/components/Nav.astro", "", "file:///home/evensite/projects/crypto-blog/");
 const $$Nav = createComponent(async ($$result, $$props, $$slots) => {
-  const Astro2 = $$result.createAstro($$Astro$5, $$props, $$slots);
+  const Astro2 = $$result.createAstro($$Astro$8, $$props, $$slots);
   Astro2.self = $$Nav;
-  const { logo } = Astro2.props;
+  const { logo, homeCurrent, articlesCurrent, aboutCurrent } = Astro2.props;
   const STYLES = [];
   for (const STYLE of STYLES)
     $$result.styles.add(STYLE);
-  return renderTemplate`${maybeRenderHead($$result)}<nav id="main-nav" class="astro-YYWXW4CW">
-    <div class="nav-container astro-YYWXW4CW">
-        <div class="logo-container astro-YYWXW4CW">
-            <img class="logo-triangle astro-YYWXW4CW" alt="The Chain Link Logo"${addAttribute(logo, "src")}>
+  return renderTemplate`${maybeRenderHead($$result)}<nav id="main-nav" class="astro-6MYDXL4Y">
+    <div class="nav-container astro-6MYDXL4Y">
+        <div class="logo-container astro-6MYDXL4Y">
+            <img class="logo-triangle astro-6MYDXL4Y" alt="The Chain Link Logo"${addAttribute(logo, "src")}>
         </div>
-        <div class="astro-YYWXW4CW">
-            <h1 class="nav-heading astro-YYWXW4CW">BLOCKCHAIN DECRYPTED</h1>
+        <div class="astro-6MYDXL4Y">
+            <h1 class="nav-heading astro-6MYDXL4Y">BLOCKCHAIN DECRYPTED</h1>
         </div>
-        <ul class="astro-YYWXW4CW">
-            <li class="astro-YYWXW4CW"><a href="/" class="current astro-YYWXW4CW">Home</a>
+        <ul class="astro-6MYDXL4Y">
+            <li class="astro-6MYDXL4Y"><a href="/"${addAttribute(homeCurrent + " astro-6MYDXL4Y", "class")}>Home</a>
             </li>
-            <li class="astro-YYWXW4CW"><a href="/articles" class="inactive astro-YYWXW4CW">Articles</a>
+            <li class="astro-6MYDXL4Y"><a href="/articles"${addAttribute(articlesCurrent + " astro-6MYDXL4Y", "class")}>Articles</a>
             </li>
-            <li class="astro-YYWXW4CW"><a href="/about" class="inactive astro-YYWXW4CW">About</a>
+            <li class="astro-6MYDXL4Y"><a href="/about"${addAttribute(aboutCurrent + " astro-6MYDXL4Y", "class")}>About</a>
             </li>
+
+            
         </ul>
     </div>
-</nav>
-
-`;
+</nav>`;
 });
 
-const $$file$5 = "/home/evensite/projects/crypto-blog/src/components/Nav.astro";
-const $$url$5 = undefined;
+const $$file$8 = "/home/evensite/projects/crypto-blog/src/components/Nav.astro";
+const $$url$8 = undefined;
 
-const $$module2$1 = /*#__PURE__*/Object.freeze(/*#__PURE__*/Object.defineProperty({
+const $$module2$3 = /*#__PURE__*/Object.freeze(/*#__PURE__*/Object.defineProperty({
   __proto__: null,
-  $$metadata: $$metadata$5,
+  $$metadata: $$metadata$8,
   default: $$Nav,
-  file: $$file$5,
-  url: $$url$5
+  file: $$file$8,
+  url: $$url$8
 }, Symbol.toStringTag, { value: 'Module' }));
 
-const $$metadata$4 = createMetadata("/@fs/home/evensite/projects/crypto-blog/src/components/Footer.astro", { modules: [], hydratedComponents: [], clientOnlyComponents: [], hydrationDirectives: /* @__PURE__ */ new Set([]), hoisted: [] });
-const $$Astro$4 = createAstro("/@fs/home/evensite/projects/crypto-blog/src/components/Footer.astro", "", "file:///home/evensite/projects/crypto-blog/");
+const $$metadata$7 = createMetadata("/@fs/home/evensite/projects/crypto-blog/src/components/Footer.astro", { modules: [], hydratedComponents: [], clientOnlyComponents: [], hydrationDirectives: /* @__PURE__ */ new Set([]), hoisted: [] });
+const $$Astro$7 = createAstro("/@fs/home/evensite/projects/crypto-blog/src/components/Footer.astro", "", "file:///home/evensite/projects/crypto-blog/");
 const $$Footer = createComponent(async ($$result, $$props, $$slots) => {
-  const Astro2 = $$result.createAstro($$Astro$4, $$props, $$slots);
+  const Astro2 = $$result.createAstro($$Astro$7, $$props, $$slots);
   Astro2.self = $$Footer;
   return renderTemplate`${maybeRenderHead($$result)}<footer id="main-footer" class="main-footer py-2">
     <div class="container footer-container">
@@ -1420,20 +1420,20 @@ const $$Footer = createComponent(async ($$result, $$props, $$slots) => {
 </footer>`;
 });
 
-const $$file$4 = "/home/evensite/projects/crypto-blog/src/components/Footer.astro";
-const $$url$4 = undefined;
+const $$file$7 = "/home/evensite/projects/crypto-blog/src/components/Footer.astro";
+const $$url$7 = undefined;
 
-const $$module3$1 = /*#__PURE__*/Object.freeze(/*#__PURE__*/Object.defineProperty({
+const $$module3 = /*#__PURE__*/Object.freeze(/*#__PURE__*/Object.defineProperty({
   __proto__: null,
-  $$metadata: $$metadata$4,
+  $$metadata: $$metadata$7,
   default: $$Footer,
-  file: $$file$4,
-  url: $$url$4
+  file: $$file$7,
+  url: $$url$7
 }, Symbol.toStringTag, { value: 'Module' }));
 
 const logo = "/assets/logo.5ee7388c.svg";
 
-const $$module4$1 = /*#__PURE__*/Object.freeze(/*#__PURE__*/Object.defineProperty({
+const $$module4 = /*#__PURE__*/Object.freeze(/*#__PURE__*/Object.defineProperty({
   __proto__: null,
   default: logo
 }, Symbol.toStringTag, { value: 'Module' }));
@@ -1445,35 +1445,37 @@ const $$module5 = /*#__PURE__*/Object.freeze(/*#__PURE__*/Object.defineProperty(
   default: favicon
 }, Symbol.toStringTag, { value: 'Module' }));
 
-const $$metadata$3 = createMetadata("/@fs/home/evensite/projects/crypto-blog/src/layouts/BaseLayout.astro", { modules: [{ module: $$module1$1, specifier: "../components/Head.astro", assert: {} }, { module: $$module2$1, specifier: "../components/Nav.astro", assert: {} }, { module: $$module3$1, specifier: "../components/Footer.astro", assert: {} }, { module: $$module4$1, specifier: "../images/logo.svg", assert: {} }, { module: $$module5, specifier: "../../public/favicon.svg", assert: {} }], hydratedComponents: [], clientOnlyComponents: [], hydrationDirectives: /* @__PURE__ */ new Set([]), hoisted: [] });
-const $$Astro$3 = createAstro("/@fs/home/evensite/projects/crypto-blog/src/layouts/BaseLayout.astro", "", "file:///home/evensite/projects/crypto-blog/");
+const $$metadata$6 = createMetadata("/@fs/home/evensite/projects/crypto-blog/src/layouts/BaseLayout.astro", { modules: [{ module: $$module1$1, specifier: "../components/Head.astro", assert: {} }, { module: $$module2$3, specifier: "../components/Nav.astro", assert: {} }, { module: $$module3, specifier: "../components/Footer.astro", assert: {} }, { module: $$module4, specifier: "../images/logo.svg", assert: {} }, { module: $$module5, specifier: "../images/favicon.svg", assert: {} }], hydratedComponents: [], clientOnlyComponents: [], hydrationDirectives: /* @__PURE__ */ new Set([]), hoisted: [] });
+const $$Astro$6 = createAstro("/@fs/home/evensite/projects/crypto-blog/src/layouts/BaseLayout.astro", "", "file:///home/evensite/projects/crypto-blog/");
 const $$BaseLayout = createComponent(async ($$result, $$props, $$slots) => {
-  const Astro2 = $$result.createAstro($$Astro$3, $$props, $$slots);
+  const Astro2 = $$result.createAstro($$Astro$6, $$props, $$slots);
   Astro2.self = $$BaseLayout;
+  const { homeCurrent, articlesCurrent, aboutCurrent } = Astro2.props;
   return renderTemplate`<html lang="en">
-    ${renderComponent($$result, "Head", $$Head, { "favicon": favicon })}
+    <!-- <Head favicon={\`../../\${favicon}\`} /> -->
+    ${renderComponent($$result, "Head", $$Head, { "icon": favicon })}
     ${maybeRenderHead($$result)}<body>
-        ${renderComponent($$result, "Nav", $$Nav, { "logo": logo })}
+        ${renderComponent($$result, "Nav", $$Nav, { "logo": logo, "homeCurrent": homeCurrent, "articlesCurrent": articlesCurrent, "aboutCurrent": aboutCurrent })}
         ${renderSlot($$result, $$slots["default"])}
         ${renderComponent($$result, "Footer", $$Footer, {})}
     </body></html>`;
 });
 
-const $$file$3 = "/home/evensite/projects/crypto-blog/src/layouts/BaseLayout.astro";
-const $$url$3 = undefined;
+const $$file$6 = "/home/evensite/projects/crypto-blog/src/layouts/BaseLayout.astro";
+const $$url$6 = undefined;
 
 const $$module1 = /*#__PURE__*/Object.freeze(/*#__PURE__*/Object.defineProperty({
   __proto__: null,
-  $$metadata: $$metadata$3,
+  $$metadata: $$metadata$6,
   default: $$BaseLayout,
-  file: $$file$3,
-  url: $$url$3
+  file: $$file$6,
+  url: $$url$6
 }, Symbol.toStringTag, { value: 'Module' }));
 
-const $$metadata$2 = createMetadata("/@fs/home/evensite/projects/crypto-blog/src/components/Showcase.astro", { modules: [], hydratedComponents: [], clientOnlyComponents: [], hydrationDirectives: /* @__PURE__ */ new Set([]), hoisted: [] });
-const $$Astro$2 = createAstro("/@fs/home/evensite/projects/crypto-blog/src/components/Showcase.astro", "", "file:///home/evensite/projects/crypto-blog/");
+const $$metadata$5 = createMetadata("/@fs/home/evensite/projects/crypto-blog/src/components/Showcase.astro", { modules: [], hydratedComponents: [], clientOnlyComponents: [], hydrationDirectives: /* @__PURE__ */ new Set([]), hoisted: [] });
+const $$Astro$5 = createAstro("/@fs/home/evensite/projects/crypto-blog/src/components/Showcase.astro", "", "file:///home/evensite/projects/crypto-blog/");
 const $$Showcase = createComponent(async ($$result, $$props, $$slots) => {
-  const Astro2 = $$result.createAstro($$Astro$2, $$props, $$slots);
+  const Astro2 = $$result.createAstro($$Astro$5, $$props, $$slots);
   Astro2.self = $$Showcase;
   const STYLES = [];
   for (const STYLE of STYLES)
@@ -1497,52 +1499,55 @@ const $$Showcase = createComponent(async ($$result, $$props, $$slots) => {
 `;
 });
 
-const $$file$2 = "/home/evensite/projects/crypto-blog/src/components/Showcase.astro";
-const $$url$2 = undefined;
+const $$file$5 = "/home/evensite/projects/crypto-blog/src/components/Showcase.astro";
+const $$url$5 = undefined;
 
-const $$module2 = /*#__PURE__*/Object.freeze(/*#__PURE__*/Object.defineProperty({
+const $$module2$2 = /*#__PURE__*/Object.freeze(/*#__PURE__*/Object.defineProperty({
   __proto__: null,
-  $$metadata: $$metadata$2,
+  $$metadata: $$metadata$5,
   default: $$Showcase,
-  file: $$file$2,
-  url: $$url$2
+  file: $$file$5,
+  url: $$url$5
 }, Symbol.toStringTag, { value: 'Module' }));
 
-const $$metadata$1 = createMetadata("/@fs/home/evensite/projects/crypto-blog/src/components/Articles.astro", { modules: [], hydratedComponents: [], clientOnlyComponents: [], hydrationDirectives: /* @__PURE__ */ new Set([]), hoisted: [] });
-const $$Astro$1 = createAstro("/@fs/home/evensite/projects/crypto-blog/src/components/Articles.astro", "", "file:///home/evensite/projects/crypto-blog/");
-const $$Articles = createComponent(async ($$result, $$props, $$slots) => {
-  const Astro2 = $$result.createAstro($$Astro$1, $$props, $$slots);
-  Astro2.self = $$Articles;
-  const { title, category, text, image, slug } = Astro2.props;
+const $$metadata$4 = createMetadata("/@fs/home/evensite/projects/crypto-blog/src/components/Articles.astro", { modules: [], hydratedComponents: [], clientOnlyComponents: [], hydrationDirectives: /* @__PURE__ */ new Set([]), hoisted: [] });
+const $$Astro$4 = createAstro("/@fs/home/evensite/projects/crypto-blog/src/components/Articles.astro", "", "file:///home/evensite/projects/crypto-blog/");
+const $$Articles$1 = createComponent(async ($$result, $$props, $$slots) => {
+  const Astro2 = $$result.createAstro($$Astro$4, $$props, $$slots);
+  Astro2.self = $$Articles$1;
+  const { title, category, summary, text, image, slug } = Astro2.props;
   const STYLES = [];
   for (const STYLE of STYLES)
     $$result.styles.add(STYLE);
-  return renderTemplate`${renderTemplate`${maybeRenderHead($$result)}<article class="article-card card bg-primary astro-DZ2XICZR">
-    <img class="article-image astro-DZ2XICZR"${addAttribute(image, "src")} alt="Blockchain image">
+  return renderTemplate`${renderTemplate`${maybeRenderHead($$result)}<article class="article-card card bg-primary astro-JGNLP6BW">
+            <img class="article-image astro-JGNLP6BW"${addAttribute(image, "src")} alt="">
 
-    <div class="astro-DZ2XICZR">
-      <h3 class="astro-DZ2XICZR">
-        <a${addAttribute(slug, "href")} class="astro-DZ2XICZR">
-          <span class="link-span astro-DZ2XICZR"></span>${title}   
-        </a>   
-      </h3>
-      <a href="#" class="category bg-light-category astro-DZ2XICZR">${category}</a>
-      <p class="astro-DZ2XICZR">${text}</p>
-    </div>
-    </article>`}
+            <div class="astro-JGNLP6BW">
+                <h3 class="astro-JGNLP6BW">
+                    <a${addAttribute(slug, "href")} class="astro-JGNLP6BW">
+                        <span class="link-span astro-JGNLP6BW"></span>
+                        ${title}
+                    </a>
+                </h3>
+                <a href="#" class="category bg-light-category astro-JGNLP6BW">
+                    ${category}
+                </a>
+                <p style="overflow: hidden;" class="astro-JGNLP6BW">${summary}</p>
+            </div>
+        </article>`}
 
 `;
 });
 
-const $$file$1 = "/home/evensite/projects/crypto-blog/src/components/Articles.astro";
-const $$url$1 = undefined;
+const $$file$4 = "/home/evensite/projects/crypto-blog/src/components/Articles.astro";
+const $$url$4 = undefined;
 
-const $$module3 = /*#__PURE__*/Object.freeze(/*#__PURE__*/Object.defineProperty({
+const $$module2$1 = /*#__PURE__*/Object.freeze(/*#__PURE__*/Object.defineProperty({
   __proto__: null,
-  $$metadata: $$metadata$1,
-  default: $$Articles,
-  file: $$file$1,
-  url: $$url$1
+  $$metadata: $$metadata$4,
+  default: $$Articles$1,
+  file: $$file$4,
+  url: $$url$4
 }, Symbol.toStringTag, { value: 'Module' }));
 
 const uri = "mongodb+srv://dbadmin:19KLxnfAEcm1BiOP@cluster0.u8vh2.mongodb.net/?retryWrites=true&w=majority";
@@ -1574,25 +1579,37 @@ const Posts = async () => {
 };
 
 const getAllPosts = async () => {
-  const posts = await (await Posts()).find().toArray();
-  return posts;
+    const posts = await (await Posts()).find().toArray();
+    return posts
+};
+
+const getPostBySlug = async () => {
+    const article = await (await Posts()).findOne();
+    return article
+};
+
+const getImageLink = async () => {
+    const image = await (await Posts()).distinct("image");
+    return image
 };
 
 const createPost = async (newPost) => {
-  const post = await (await Posts()).insert(newPost);
-  return post;
+    const post = await (await Posts()).insert(newPost);
+    return post
 };
 
-const $$module4 = /*#__PURE__*/Object.freeze(/*#__PURE__*/Object.defineProperty({
+const $$module2 = /*#__PURE__*/Object.freeze(/*#__PURE__*/Object.defineProperty({
   __proto__: null,
   getAllPosts,
+  getPostBySlug,
+  getImageLink,
   createPost
 }, Symbol.toStringTag, { value: 'Module' }));
 
-const $$metadata = createMetadata("/@fs/home/evensite/projects/crypto-blog/src/pages/index.astro", { modules: [{ module: $$module1, specifier: "../layouts/BaseLayout.astro", assert: {} }, { module: $$module2, specifier: "../components/Showcase.astro", assert: {} }, { module: $$module3, specifier: "../components/Articles.astro", assert: {} }, { module: $$module4, specifier: "../lib/posts", assert: {} }], hydratedComponents: [], clientOnlyComponents: [], hydrationDirectives: /* @__PURE__ */ new Set([]), hoisted: [] });
-const $$Astro = createAstro("/@fs/home/evensite/projects/crypto-blog/src/pages/index.astro", "", "file:///home/evensite/projects/crypto-blog/");
+const $$metadata$3 = createMetadata("/@fs/home/evensite/projects/crypto-blog/src/pages/index.astro", { modules: [{ module: $$module1, specifier: "../layouts/BaseLayout.astro", assert: {} }, { module: $$module2$2, specifier: "../components/Showcase.astro", assert: {} }, { module: $$module2$1, specifier: "../components/Articles.astro", assert: {} }, { module: $$module2, specifier: "../lib/posts", assert: {} }], hydratedComponents: [], clientOnlyComponents: [], hydrationDirectives: /* @__PURE__ */ new Set([]), hoisted: [] });
+const $$Astro$3 = createAstro("/@fs/home/evensite/projects/crypto-blog/src/pages/index.astro", "", "file:///home/evensite/projects/crypto-blog/");
 const $$Index = createComponent(async ($$result, $$props, $$slots) => {
-  const Astro2 = $$result.createAstro($$Astro, $$props, $$slots);
+  const Astro2 = $$result.createAstro($$Astro$3, $$props, $$slots);
   Astro2.self = $$Index;
   const posts = await getAllPosts();
   if (!posts) {
@@ -1601,29 +1618,200 @@ const $$Index = createComponent(async ($$result, $$props, $$slots) => {
       statusText: "Not found"
     });
   }
-  return renderTemplate`${renderComponent($$result, "BaseLayout", $$BaseLayout, {}, { "default": () => renderTemplate`${renderComponent($$result, "Showcase", $$Showcase, {})}${maybeRenderHead($$result)}<section id="home-articles" class="home-articles py-2">
+  function limitTextContent(text) {
+    return text.substring(text, 500);
+  }
+  return renderTemplate`${renderComponent($$result, "BaseLayout", $$BaseLayout, { "homeCurrent": "current" }, { "default": () => renderTemplate`${renderComponent($$result, "Showcase", $$Showcase, {})}${maybeRenderHead($$result)}<section id="home-articles" class="home-articles py-2">
         <div class="articles-background-container">
             <h2>Editor Picks</h2>
             <div class="articles-container">
-
-            ${posts.map((post) => renderTemplate`${renderComponent($$result, "Articles", $$Articles, { "title": post.title, "category": post.category, "text": post.text, "image": `../images/${post.image}` })}`)}
+                ${posts.map((post) => renderTemplate`${renderComponent($$result, "Articles", $$Articles$1, { "title": post.title, "category": post.category, "summary": limitTextContent(post.summary), "image": `/images/${post.image}`, "slug": `/read/${post.slug}` })}`)}
             </div>
         </div>
     </section>` })}`;
 });
 
-const $$file = "/home/evensite/projects/crypto-blog/src/pages/index.astro";
-const $$url = "";
+const $$file$3 = "/home/evensite/projects/crypto-blog/src/pages/index.astro";
+const $$url$3 = "";
 
 const _page0 = /*#__PURE__*/Object.freeze(/*#__PURE__*/Object.defineProperty({
   __proto__: null,
-  $$metadata,
+  $$metadata: $$metadata$3,
   default: $$Index,
+  file: $$file$3,
+  url: $$url$3
+}, Symbol.toStringTag, { value: 'Module' }));
+
+const $$metadata$2 = createMetadata("/@fs/home/evensite/projects/crypto-blog/src/pages/articles.astro", { modules: [{ module: $$module1, specifier: "../layouts/BaseLayout.astro", assert: {} }, { module: $$module2$1, specifier: "../components/Articles.astro", assert: {} }], hydratedComponents: [], clientOnlyComponents: [], hydrationDirectives: /* @__PURE__ */ new Set([]), hoisted: [] });
+const $$Astro$2 = createAstro("/@fs/home/evensite/projects/crypto-blog/src/pages/articles.astro", "", "file:///home/evensite/projects/crypto-blog/");
+const $$Articles = createComponent(async ($$result, $$props, $$slots) => {
+  const Astro2 = $$result.createAstro($$Astro$2, $$props, $$slots);
+  Astro2.self = $$Articles;
+  return renderTemplate`${renderComponent($$result, "BaseLayout", $$BaseLayout, { "articlesCurrent": "current" }, { "default": () => renderTemplate`${maybeRenderHead($$result)}<section id="articles" class="articles">
+        <div class="container">
+            <div class="page-container">
+                <article class="article-dark">
+                    <h1 class="l-heading">Articles</h1>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing
+                        elit. Alias accusamus architecto iste omnis corrupti
+                        dignissimos illum minus molestiae amet provident soluta
+                        suscipit, itaque, porro perspiciatis minima aliquid
+                        aliquam voluptatem doloribus modi! Illum necessitatibus
+                        magnam distinctio exercitationem quisquam aliquam
+                        laborum possimus deleniti velit praesentium, eius
+                        ratione dignissimos molestiae natus impedit et?</p>
+                    <br>
+                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing
+                        elit. Debitis, velit? Recusandae earum iure tempore
+                        nihil neque! Mollitia tempora aspernatur assumenda eaque
+                        error, consectetur eligendi quae ducimus a nesciunt
+                        vitae facere temporibus doloremque, ratione nostrum
+                        incidunt corrupti officia itaque saepe hic sunt
+                        corporis. Molestias minus molestiae odit neque ab
+                        delectus quam fugiat nihil debitis veritatis, est ea,
+                        possimus facere repudiandae excepturi.</p>
+                </article>
+
+                <aside class="card">
+                    <h2>Join The Chain</h2>
+                    <p>Sign Up for a Seven Day Free trail and recieve full
+                        access to out premium content</p>
+                    <a href="#" class="btn btn-dark btn-block">Join Now</a>
+                </aside>
+            </div>
+        </div>
+    </section>` })}`;
+});
+
+const $$file$2 = "/home/evensite/projects/crypto-blog/src/pages/articles.astro";
+const $$url$2 = "/articles";
+
+const _page1 = /*#__PURE__*/Object.freeze(/*#__PURE__*/Object.defineProperty({
+  __proto__: null,
+  $$metadata: $$metadata$2,
+  default: $$Articles,
+  file: $$file$2,
+  url: $$url$2
+}, Symbol.toStringTag, { value: 'Module' }));
+
+const $$metadata$1 = createMetadata("/@fs/home/evensite/projects/crypto-blog/src/pages/about.astro", { modules: [{ module: $$module1, specifier: "../layouts/BaseLayout.astro", assert: {} }], hydratedComponents: [], clientOnlyComponents: [], hydrationDirectives: /* @__PURE__ */ new Set([]), hoisted: [] });
+const $$Astro$1 = createAstro("/@fs/home/evensite/projects/crypto-blog/src/pages/about.astro", "", "file:///home/evensite/projects/crypto-blog/");
+const $$About = createComponent(async ($$result, $$props, $$slots) => {
+  const Astro2 = $$result.createAstro($$Astro$1, $$props, $$slots);
+  Astro2.self = $$About;
+  return renderTemplate`${renderComponent($$result, "BaseLayout", $$BaseLayout, { "aboutCurrent": "current" }, { "default": () => renderTemplate`${maybeRenderHead($$result)}<section id="about" class="about">
+        <div class="container">
+            <div class="page-container">
+                <article class="article-dark">
+                    <h1 class="l-heading">About The Chain</h1>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing
+                        elit. Alias accusamus architecto iste omnis corrupti
+                        dignissimos illum minus molestiae amet provident soluta
+                        suscipit, itaque, porro perspiciatis minima aliquid
+                        aliquam voluptatem doloribus modi! Illum necessitatibus
+                        magnam distinctio exercitationem quisquam aliquam
+                        laborum possimus deleniti velit praesentium, eius
+                        ratione dignissimos molestiae natus impedit et?</p>
+                    <br>
+                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing
+                        elit. Debitis, velit? Recusandae earum iure tempore
+                        nihil neque! Mollitia tempora aspernatur assumenda eaque
+                        error, consectetur eligendi quae ducimus a nesciunt
+                        vitae facere temporibus doloremque, ratione nostrum
+                        incidunt corrupti officia itaque saepe hic sunt
+                        corporis. Molestias minus molestiae odit neque ab
+                        delectus quam fugiat nihil debitis veritatis, est ea,
+                        possimus facere repudiandae excepturi.</p>
+                </article>
+
+                <aside class="card">
+                    <h2>Join The Chain</h2>
+                    <p>Sign Up for a Seven Day Free trail and recieve full
+                        access to out premium content</p>
+                    <a href="#" class="btn btn-dark btn-block">Join Now</a>
+                </aside>
+            </div>
+        </div>
+    </section>` })}`;
+});
+
+const $$file$1 = "/home/evensite/projects/crypto-blog/src/pages/about.astro";
+const $$url$1 = "/about";
+
+const _page2 = /*#__PURE__*/Object.freeze(/*#__PURE__*/Object.defineProperty({
+  __proto__: null,
+  $$metadata: $$metadata$1,
+  default: $$About,
+  file: $$file$1,
+  url: $$url$1
+}, Symbol.toStringTag, { value: 'Module' }));
+
+const $$metadata = createMetadata("/@fs/home/evensite/projects/crypto-blog/src/pages/read/[...path].astro", { modules: [{ module: $$module1, specifier: "../../layouts/BaseLayout.astro", assert: {} }, { module: $$module2, specifier: "../../lib/posts", assert: {} }], hydratedComponents: [], clientOnlyComponents: [], hydrationDirectives: /* @__PURE__ */ new Set([]), hoisted: [] });
+const $$Astro = createAstro("/@fs/home/evensite/projects/crypto-blog/src/pages/read/[...path].astro", "", "file:///home/evensite/projects/crypto-blog/");
+const $$ = createComponent(async ($$result, $$props, $$slots) => {
+  const Astro2 = $$result.createAstro($$Astro, $$props, $$slots);
+  Astro2.self = $$;
+  Astro2.props;
+  Astro2.request;
+  const post = await getPostBySlug();
+  if (!post) {
+    return new Response(null, {
+      status: 404,
+      statusText: "Not found"
+    });
+  }
+  return renderTemplate`${renderComponent($$result, "BaseLayout", $$BaseLayout, {}, { "default": () => renderTemplate`${maybeRenderHead($$result)}<section id="read" class="read">
+        <div class="container">
+      
+          <div class="article-container">
+              <article class="article-light">
+                  <img src="../images/<%= article.image %> " alt="">
+                    <!-- <h1 class="article-heading">Dfinity annouces Bitcoin on the Internet Computer</h1> -->
+                    <div class="article-content">
+                      <h1 class="article-heading">${post.title}</h1>
+                      <div class="article-meta">
+                        <a href="#" class="article-author">${post.author}</a>
+                        <a href="#" class="category bg-light-category">${post.category}</a>
+                      </div>
+                      <p class="article-text">
+                        ${post.text}
+                      </p>
+      
+                    </div>
+                    <!-- <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias accusamus architecto iste omnis corrupti dignissimos illum minus molestiae amet provident soluta suscipit, itaque, porro perspiciatis minima aliquid aliquam voluptatem doloribus modi! Illum necessitatibus magnam distinctio exercitationem quisquam aliquam laborum possimus deleniti velit praesentium, eius ratione dignissimos molestiae natus impedit et?</p> -->
+                    <!-- <br>
+                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Debitis, velit? Recusandae earum iure tempore nihil neque! Mollitia tempora aspernatur assumenda eaque error, consectetur eligendi quae ducimus a nesciunt vitae facere temporibus doloremque, ratione nostrum incidunt corrupti officia itaque saepe hic sunt corporis. Molestias minus molestiae odit neque ab delectus quam fugiat nihil debitis veritatis, est ea, possimus facere repudiandae excepturi.</p>
+                    <br>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias accusamus architecto iste omnis corrupti dignissimos illum minus molestiae amet provident soluta suscipit, itaque, porro perspiciatis minima aliquid aliquam voluptatem doloribus modi! Illum necessitatibus magnam distinctio exercitationem quisquam aliquam laborum possimus deleniti velit praesentium, eius ratione dignissimos molestiae natus impedit et?</p> -->
+                  </article>
+              <aside class="card-aside">
+                <h2>Become a Contributor</h2>
+                <p>Join an ever-expanding community of talented content creators.</p>
+                <p>Help promote and fund your work through your own public profile page linked directly from your published articles.</p>
+                <a href="#" class="btn btn-dark btn-block">Join Now</a>
+              </aside>
+              <!-- <aside class="card-aside">
+                <H2>Join The Chain</H2>
+                <p>Sign Up for a Seven Day Free trail and recieve full access to out premium content</p>
+                <a href="#" class="btn btn-dark btn-block">Join Now</a>
+              </aside> -->
+          </div>
+        </div>
+      </section>` })}`;
+});
+
+const $$file = "/home/evensite/projects/crypto-blog/src/pages/read/[...path].astro";
+const $$url = "/read/[...path]";
+
+const _page3 = /*#__PURE__*/Object.freeze(/*#__PURE__*/Object.defineProperty({
+  __proto__: null,
+  $$metadata,
+  default: $$,
   file: $$file,
   url: $$url
 }, Symbol.toStringTag, { value: 'Module' }));
 
-const pageMap = new Map([['src/pages/index.astro', _page0],]);
+const pageMap = new Map([['src/pages/index.astro', _page0],['src/pages/articles.astro', _page1],['src/pages/about.astro', _page2],['src/pages/read/[...path].astro', _page3],]);
 const renderers = [Object.assign({"name":"astro:jsx","serverEntrypoint":"astro/jsx/server.js","jsxImportSource":"astro"}, { ssr: server_default }),];
 
 if (typeof process !== "undefined") {
@@ -1695,7 +1883,7 @@ function deserializeManifest(serializedManifest) {
   };
 }
 
-const _manifest = Object.assign(deserializeManifest({"adapterName":"@astrojs/netlify/functions","routes":[{"file":"","links":["assets/index.4f42729b.css"],"scripts":[],"routeData":{"route":"/","type":"page","pattern":"^\\/$","segments":[],"params":[],"component":"src/pages/index.astro","pathname":"/","_meta":{"trailingSlash":"ignore"}}}],"base":"/","markdown":{"drafts":false,"syntaxHighlight":"shiki","shikiConfig":{"langs":[],"theme":"github-dark","wrap":false},"remarkPlugins":[],"rehypePlugins":[],"remarkRehype":{},"extendDefaultPlugins":false,"isAstroFlavoredMd":false},"pageMap":null,"renderers":[],"entryModules":{"\u0000@astrojs-ssr-virtual-entry":"entry.mjs","astro:scripts/before-hydration.js":""},"assets":["/assets/logo.5ee7388c.svg","/assets/favicon.2ceaaec1.svg","/assets/shubham-dhage-article-1-unsplash.514e7061.jpg","/assets/index.4f42729b.css","/favicon.svg","/css/global.css","/css/mobile.css","/js/index.js"]}), {
+const _manifest = Object.assign(deserializeManifest({"adapterName":"@astrojs/netlify/functions","routes":[{"file":"","links":["assets/about-articles-index-read-_...040a098b.css","assets/index.786511ac.css"],"scripts":[],"routeData":{"route":"/","type":"page","pattern":"^\\/$","segments":[],"params":[],"component":"src/pages/index.astro","pathname":"/","_meta":{"trailingSlash":"ignore"}}},{"file":"","links":["assets/about-articles-index-read-_...040a098b.css"],"scripts":[],"routeData":{"route":"/articles","type":"page","pattern":"^\\/articles\\/?$","segments":[[{"content":"articles","dynamic":false,"spread":false}]],"params":[],"component":"src/pages/articles.astro","pathname":"/articles","_meta":{"trailingSlash":"ignore"}}},{"file":"","links":["assets/about-articles-index-read-_...040a098b.css"],"scripts":[],"routeData":{"route":"/about","type":"page","pattern":"^\\/about\\/?$","segments":[[{"content":"about","dynamic":false,"spread":false}]],"params":[],"component":"src/pages/about.astro","pathname":"/about","_meta":{"trailingSlash":"ignore"}}},{"file":"","links":["assets/about-articles-index-read-_...040a098b.css"],"scripts":[],"routeData":{"route":"/read/[...path]","type":"page","pattern":"^\\/read(?:\\/(.*?))?\\/?$","segments":[[{"content":"read","dynamic":false,"spread":false}],[{"content":"...path","dynamic":true,"spread":true}]],"params":["...path"],"component":"src/pages/read/[...path].astro","_meta":{"trailingSlash":"ignore"}}}],"base":"/","markdown":{"drafts":false,"syntaxHighlight":"shiki","shikiConfig":{"langs":[],"theme":"github-dark","wrap":false},"remarkPlugins":[],"rehypePlugins":[],"remarkRehype":{},"extendDefaultPlugins":false,"isAstroFlavoredMd":false},"pageMap":null,"renderers":[],"entryModules":{"\u0000@astrojs-ssr-virtual-entry":"entry.mjs","astro:scripts/before-hydration.js":""},"assets":["/assets/logo.5ee7388c.svg","/assets/favicon.2ceaaec1.svg","/assets/shubham-dhage-article-1-unsplash.514e7061.jpg","/assets/about-articles-index-read-_...040a098b.css","/assets/index.786511ac.css","/css/global.css","/css/mobile.css","/images/fly-d-lock-2-unsplash.jpg","/images/fly-d-lock-unsplash.jpg","/images/jievani-weerasinghe-ethereum-unsplash.jpg","/images/jievani-weerasinghe-litecoin-unsplash.jpg","/images/privecstasy-vpn-unsplash.jpg","/images/quantitatives-shiba-unsplash.jpg","/images/shubham-dhage-26PeYRqpBh8-unsplash.jpg","/images/shubham-dhage-background-2-unsplash.jpg","/images/shubham-dhage-background-3-unsplash.jpg","/images/shubham-dhage-background-4-unsplash.jpg","/images/shubham-dhage-background-6-unsplash.jpg","/images/shubham-dhage-background-unsplash.jpg","/images/shubham-dhage-laptop-M-unsplash.jpg","/images/shubham-dhage-mystery-unsplash.jpg","/images/shubham-dhage-wallet-unsplash.jpg","/images/shubham-dhage-web3-unsplash.jpg","/images/tezos-w_infasctructure-unsplash.jpg","/images/vadim-artyukhin-bitcoin-card-unsplash.jpg","/js/index.js"]}), {
 	pageMap: pageMap,
 	renderers: renderers
 });

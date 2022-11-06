@@ -1,5 +1,5 @@
 ---
-const { title, category, text, image, slug } = Astro.props
+const { title, category, summary, text, image, slug } = Astro.props
 ---
 
 {
@@ -8,7 +8,7 @@ const { title, category, text, image, slug } = Astro.props
             <img
                 class="article-image"
                 src={image}
-                alt="Blockchain image"
+                alt=""
             />
 
             <div>
@@ -24,7 +24,7 @@ const { title, category, text, image, slug } = Astro.props
                 >
                     {category}
                 </a>
-                <p style="overflow: hidden;">{text}</p>
+                <p style="overflow: hidden;">{summary}</p>
             </div>
         </article>
     )
