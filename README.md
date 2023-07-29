@@ -1,6 +1,6 @@
 # Crypto Blog
 
-![Screenshot](crypto-blog.png)
+<img src="crypto-blog.png" alt="Alt Text" width="300" height="200">
 
 ## Built using
 
