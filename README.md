@@ -1,5 +1,6 @@
 # Crypto Blog
 
+(crypto-blog.png)
 
 ## Built using
 
