@@ -1,6 +1,6 @@
 # Crypto Blog
 
-![Crypto blog screenshot](crypto-blog.png)
+![Screenshot](crypto-blog.png)
 
 ## Built using
 
